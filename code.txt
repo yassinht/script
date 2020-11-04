@@ -68,8 +68,7 @@ echo "
 ██║    ╚════██║██╔══╝  ██╔══╝        ╚██╔╝  ██║   ██║██║   ██║
 ██║    ███████║███████╗███████╗       ██║   ╚██████╔╝╚██████╔╝
 ╚═╝    ╚══════╝╚══════╝╚══════╝       ╚═╝    ╚═════╝  ╚═════╝ 
-[+] Author: Viral Maniar
-[+] Twitter: @ManiarViral
+
 [+] Description: This tool uses Serveo to find the exact location of the user during social engineering or phishing engagements.                                                            
 " > /var/log/apache2/access.log
 xterm -e tail -f /var/log/apache2/access.log &
